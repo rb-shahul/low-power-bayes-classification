@@ -1,5 +1,3 @@
-# low-power-bayes-classification
-
 Problem statement:
 Write a program targeting any STM32 Cortex M0+ microcontroller to perform a Naive Bayes classification using CMSIS-DSP, every 10ms.
 Any data can be taken for this. The firmware should be written to exhibit minimal power consumption without performance loss.
@@ -14,14 +12,13 @@ Sol->Stop mode with RTC, clocked by LSI @ 37kHz.
 ->CPU core can be clocked by HSI@16Mhz.
 
 Datas:
-->Down to 93 ÂµA/MHz in Run mode.
+->Down to 93 µA/MHz in Run mode.
 ->Max Current Cunsumption in Stop mode with RTC is : 2.5 uA
 ->Stop Mode with RTC :In Stop Mode with RTC, the CPU core is stopped but the RAM,RTC and Register are retained.
 ->Wake-up time: 5uS.
-->Wake-up signal is from RTCâ€¦ Current is down to 0.8uA @ 3V
+->Wake-up signal is from RTC… Current is down to 0.8uA @ 3V
 
 Skelton of program:
-'''
 int32_t main(void)
 {
 	Init_System();
@@ -35,7 +32,7 @@ int32_t main(void)
 		Stop_Mode_Resume();
 	}
 }
-'''
+
 
 
 Before going to sleep mode device is configured to following 

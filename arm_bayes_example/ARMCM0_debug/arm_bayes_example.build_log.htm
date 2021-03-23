@@ -1,0 +1,155 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: mufeeda Mufeeda, muf, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.15
+Assembler:       Armasm.exe V6.15
+Linker/Locator:  ArmLink.exe V6.15
+Library Manager: ArmAr.exe V6.15
+Hex Converter:   FromElf.exe V6.15
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.3.0
+ 
+<h2>Project:</h2>
+C:\Users\Mufeeda\Desktop\arm_bayes_example\arm_bayes_example.uvprojx
+Project File Date:  03/20/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.15', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'ARMCM0'
+compiling BayesFunctions.c...
+compiling ControllerFunctions.c...
+compiling main.c...
+compiling ComplexMathFunctions.c...
+compiling DistanceFunctions.c...
+compiling BasicMathFunctions.c...
+compiling FastMathFunctions.c...
+compiling SVMFunctions.c...
+compiling StatisticsFunctions.c...
+compiling stm32l0xx_hal.c...
+compiling MatrixFunctions.c...
+compiling SupportFunctions.c...
+compiling stm32l0xx_hal_cortex.c...
+compiling stm32l0xx_hal_flash.c...
+compiling stm32l0xx_hal_flash_ex.c...
+compiling stm32l0xx_hal_pwr.c...
+compiling stm32l0xx_hal_gpio.c...
+compiling stm32l0xx_hal_pwr_ex.c...
+compiling stm32l0xx_hal_rcc_ex.c...
+compiling stm32l0xx_hal_rcc.c...
+compiling stm32l0xx_hal_rtc.c...
+compiling CommonTables.c...
+assembling startup_stm32l010xb.s...
+compiling stm32l0xx_hal_rtc_ex.c...
+compiling system_stm32l0xx.c...
+compiling TransformFunctions.c...
+compiling FilteringFunctions.c...
+linking...
+Program Size: Code=6988 RO-data=440 RW-data=4 ZI-data=5284  
+".\ARMCM0_debug\arm_bayes_example.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+   * Component: DSP Variant: Source Version: 1.8.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L0xx_DFP.2.1.0.pack
+                Keil.STM32L0xx_DFP.2.1.0
+                STMicroelectronics STM32L0 Series Device Support, Drivers and Examples
+   * Component: COMMON Version: 1.10.2
+   * Component: CORTEX Version: 1.10.2
+   * Component: FLASH Version: 1.10.2
+   * Component: GPIO Version: 1.10.2
+   * Component: PWR Version: 1.10.2
+   * Component: RCC Version: 1.10.2
+   * Component: RTC Version: 1.10.2
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32L010RBTx
+  .\RTE\_ARMCM0
+  C:\Users\Mufeeda\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\Mufeeda\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\Include
+  C:\Users\Mufeeda\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\DSP\PrivateInclude
+  C:\Users\Mufeeda\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32L0xx\Include
+  C:\Users\Mufeeda\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.1.0\Drivers\STM32L0xx_HAL_Driver\Inc
+  C:\Users\Mufeeda\AppData\Local\Arm\Packs\Keil\STM32L0xx_DFP\2.1.0\Drivers\STM32L0xx_HAL_Driver\Inc\Legacy
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::CMSIS:DSP:Source:1.8.0
+      Include file:  CMSIS\DSP\Include\arm_math.h
+      Source file:   CMSIS\DSP\Source\BasicMathFunctions\BasicMathFunctions.c
+      Source file:   CMSIS\DSP\Source\BayesFunctions\BayesFunctions.c
+      Source file:   CMSIS\DSP\Source\CommonTables\CommonTables.c
+      Source file:   CMSIS\DSP\Source\SVMFunctions\SVMFunctions.c
+      Source file:   CMSIS\DSP\Source\StatisticsFunctions\StatisticsFunctions.c
+      Source file:   CMSIS\DSP\Source\SupportFunctions\SupportFunctions.c
+      Source file:   CMSIS\DSP\Source\ControllerFunctions\ControllerFunctions.c
+      Source file:   CMSIS\DSP\Source\TransformFunctions\TransformFunctions.c
+      Source file:   CMSIS\DSP\Source\FastMathFunctions\FastMathFunctions.c
+      Source file:   CMSIS\DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c
+      Source file:   CMSIS\DSP\Source\MatrixFunctions\MatrixFunctions.c
+      Source file:   CMSIS\DSP\Source\FilteringFunctions\FilteringFunctions.c
+      Source file:   CMSIS\DSP\Source\DistanceFunctions\DistanceFunctions.c
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:COMMON:1.10.2
+      Source file:   MDK\Templates\Src\main.c
+      Include file:  Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal_def.h
+      Include file:  Drivers\STM32L0xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h
+      Include file:  MDK\Templates\Inc\main.h
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal.c
+      Source file:   MDK\Templates\Src\stm32l0xx_it.c
+      Include file:  MDK\Templates\Inc\stm32l0xx_it.h
+      Source file:   MDK\Templates\Src\stm32l0xx_hal_msp.c
+      Include file:  Drivers\STM32L0xx_HAL_Driver\Inc\stm32l0xx_hal.h
+      Include file:  MDK\Templates\Inc\stm32l0xx_hal_conf.h
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:CORTEX:1.10.2
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_cortex.c
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:FLASH:1.10.2
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash.c
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:GPIO:1.10.2
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_gpio.c
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:PWR:1.10.2
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr.c
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_pwr_ex.c
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:RCC:1.10.2
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc_ex.c
+
+   * Component: Keil.Standalone::Device:STM32Cube HAL:RTC:1.10.2
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc.c
+      Source file:   Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rtc_ex.c
+
+   * Component: Keil.Standalone::Device:Startup:1.0.0
+      Include file:  Drivers\CMSIS\Device\ST\STM32L0xx\Include\stm32l0xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\arm\startup_stm32l010xb.s
+      Source file:   MDK\Device\Source\ARM\STM32L0xx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\system_stm32l0xx.c
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
